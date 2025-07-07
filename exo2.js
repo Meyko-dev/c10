@@ -7,16 +7,11 @@
     //Mathieu 22 ans
     //Léa 15 ans
     //Jean 17 ans
-
-let ageLegal = 17;
-let age=Number
-let prenom = ["Mathieu", "Léa", "Jean"];
-
     function eligibiltealaconduite(prenom, age) {
-        const ageLegal =17 ;
+        const ageLegal = 17 ;
         if (ageLegal <= age) {
-            console.log(`$(prenom) est autorisé à conduire.`);
-        } else if (ageLegal > age); {
+            console.log(`${prenom} est autorisé à conduire.`);
+        } else {
             console.log(`${prenom} n'est pas autorisé à conduire.`)
         }
     }
